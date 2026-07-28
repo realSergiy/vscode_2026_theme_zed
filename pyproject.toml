@@ -1,0 +1,17 @@
+[project]
+name = "vscode-2026-theme-zed"
+version = "0.1.0"
+description = "Generator deriving the Zed VSCode 2026 themes from vendored VS Code sources"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "ruff>=0.16.0",
+    "rumdl>=0.2.43",
+    "pyrefly>=1.1.1",
+]
+
+[tool.uv]
+package = false

@@ -1,0 +1,7 @@
+id = "vscode-2026"
+name = "VSCode 2026 Themes"
+version = "0.1.0"
+schema_version = 1
+authors = ["Sergiy Yeskov <sergiy.yeskov@gmail.com>"]
+description = "VS Code Dark 2026 and Light 2026 themes for Zed"
+repository = "https://github.com/realSergiy/vscode_2026_theme_zed"

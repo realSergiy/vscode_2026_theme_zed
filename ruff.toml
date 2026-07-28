@@ -1,0 +1,7 @@
+line-length = 120
+target-version = "py314"
+preview = true
+
+[lint]
+select = ["ALL"]
+ignore = ["D", "DOC", "missing-trailing-comma"]

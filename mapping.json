@@ -1,0 +1,529 @@
+{
+  "chains": {
+    "dark": [
+      "dark_vs.json",
+      "dark_plus.json",
+      "dark_modern.json",
+      "2026-dark.json"
+    ],
+    "light": [
+      "light_vs.json",
+      "light_plus.json",
+      "light_modern.json",
+      "2026-light.json"
+    ]
+  },
+  "ui": {
+    "border": [
+      "panel.border"
+    ],
+    "border.variant": [
+      "panel.border"
+    ],
+    "border.focused": [
+      "focusBorder"
+    ],
+    "border.selected": [
+      "panelTitle.activeBorder"
+    ],
+    "border.disabled": [
+      "panel.border"
+    ],
+    "elevated_surface.background": [
+      "editorWidget.background"
+    ],
+    "surface.background": [
+      "sideBar.background"
+    ],
+    "background": [
+      "sideBar.background"
+    ],
+    "element.background": [
+      "sideBar.background"
+    ],
+    "element.hover": [
+      "list.hoverBackground"
+    ],
+    "element.active": [
+      "list.activeSelectionBackground"
+    ],
+    "element.selected": [
+      "list.activeSelectionBackground"
+    ],
+    "drop_target.background": [
+      "list.dropBackground"
+    ],
+    "ghost_element.hover": [
+      "list.hoverBackground"
+    ],
+    "ghost_element.active": [
+      "list.activeSelectionBackground"
+    ],
+    "ghost_element.selected": [
+      "list.activeSelectionBackground"
+    ],
+    "text": [
+      "foreground"
+    ],
+    "text.muted": [
+      "descriptionForeground"
+    ],
+    "text.placeholder": [
+      "input.placeholderForeground"
+    ],
+    "text.disabled": [
+      "disabledForeground"
+    ],
+    "text.accent": [
+      "textLink.foreground"
+    ],
+    "icon": [
+      "icon.foreground"
+    ],
+    "icon.muted": [
+      "icon.foreground"
+    ],
+    "icon.disabled": [
+      "disabledForeground"
+    ],
+    "icon.accent": [
+      "textLink.foreground"
+    ],
+    "debugger.accent": [
+      "statusBar.debuggingBackground"
+    ],
+    "status_bar.background": [
+      "statusBar.background"
+    ],
+    "title_bar.background": [
+      "titleBar.activeBackground"
+    ],
+    "title_bar.inactive_background": [
+      "titleBar.inactiveBackground"
+    ],
+    "toolbar.background": [
+      "breadcrumb.background",
+      "editor.background"
+    ],
+    "tab_bar.background": [
+      "editorGroupHeader.tabsBackground"
+    ],
+    "tab.inactive_background": [
+      "tab.inactiveBackground"
+    ],
+    "tab.active_background": [
+      "tab.activeBackground"
+    ],
+    "search.match_background": [
+      "editor.findMatchHighlightBackground"
+    ],
+    "panel.background": [
+      "sideBar.background"
+    ],
+    "panel.focused_border": [
+      "focusBorder"
+    ],
+    "pane_group.border": [
+      "editorGroup.border",
+      "panel.border"
+    ],
+    "scrollbar.thumb.background": [
+      "scrollbarSlider.background"
+    ],
+    "scrollbar.thumb.hover_background": [
+      "scrollbarSlider.hoverBackground"
+    ],
+    "scrollbar.thumb.active_background": [
+      "scrollbarSlider.activeBackground"
+    ],
+    "scrollbar.track.border": [
+      "editorOverviewRuler.border"
+    ],
+    "minimap.thumb.background": [
+      "minimapSlider.background",
+      "scrollbarSlider.background"
+    ],
+    "minimap.thumb.hover_background": [
+      "minimapSlider.hoverBackground",
+      "scrollbarSlider.hoverBackground"
+    ],
+    "minimap.thumb.active_background": [
+      "minimapSlider.activeBackground",
+      "scrollbarSlider.activeBackground"
+    ],
+    "editor.foreground": [
+      "editor.foreground"
+    ],
+    "editor.background": [
+      "editor.background"
+    ],
+    "editor.gutter.background": [
+      "editorGutter.background",
+      "editor.background"
+    ],
+    "editor.active_line.background": [
+      "editor.lineHighlightBackground"
+    ],
+    "editor.highlighted_line.background": [
+      "editor.rangeHighlightBackground"
+    ],
+    "editor.line_number": [
+      "editorLineNumber.foreground"
+    ],
+    "editor.active_line_number": [
+      "editorLineNumber.activeForeground"
+    ],
+    "editor.hover_line_number": [
+      "editorLineNumber.activeForeground"
+    ],
+    "editor.invisible": [
+      "editorWhitespace.foreground"
+    ],
+    "editor.wrap_guide": [
+      "editorRuler.foreground"
+    ],
+    "editor.active_wrap_guide": [
+      "editorRuler.foreground"
+    ],
+    "editor.indent_guide": [
+      "editorIndentGuide.background"
+    ],
+    "editor.indent_guide_active": [
+      "editorIndentGuide.activeBackground"
+    ],
+    "editor.document_highlight.read_background": [
+      "editor.wordHighlightBackground"
+    ],
+    "editor.document_highlight.write_background": [
+      "editor.wordHighlightStrongBackground"
+    ],
+    "editor.document_highlight.bracket_background": [
+      "editorBracketMatch.background"
+    ],
+    "terminal.background": [
+      "terminal.background"
+    ],
+    "link_text.hover": [
+      "textLink.activeForeground"
+    ],
+    "version_control.added": [
+      "editorGutter.addedBackground"
+    ],
+    "version_control.deleted": [
+      "editorGutter.deletedBackground"
+    ],
+    "version_control.modified": [
+      "editorGutter.modifiedBackground"
+    ],
+    "version_control.renamed": [
+      "gitDecoration.addedResourceForeground"
+    ],
+    "version_control.conflict": [
+      "gitDecoration.conflictingResourceForeground"
+    ],
+    "version_control.ignored": [
+      "gitDecoration.ignoredResourceForeground"
+    ],
+    "conflict": [
+      "gitDecoration.conflictingResourceForeground"
+    ],
+    "created": [
+      "gitDecoration.addedResourceForeground"
+    ],
+    "deleted": [
+      "gitDecoration.deletedResourceForeground"
+    ],
+    "error": [
+      "errorForeground"
+    ],
+    "error.background": [
+      "inputValidation.errorBackground"
+    ],
+    "error.border": [
+      "inputValidation.errorBorder"
+    ],
+    "hidden": [
+      "descriptionForeground"
+    ],
+    "ignored": [
+      "gitDecoration.ignoredResourceForeground"
+    ],
+    "info": [
+      "notificationsInfoIcon.foreground"
+    ],
+    "info.background": [
+      "inputValidation.infoBackground"
+    ],
+    "info.border": [
+      "inputValidation.infoBorder"
+    ],
+    "modified": [
+      "gitDecoration.modifiedResourceForeground"
+    ],
+    "renamed": [
+      "gitDecoration.addedResourceForeground"
+    ],
+    "success": [
+      "gitDecoration.addedResourceForeground"
+    ],
+    "unreachable": [
+      "descriptionForeground"
+    ],
+    "warning": [
+      "notificationsWarningIcon.foreground"
+    ],
+    "warning.background": [
+      "inputValidation.warningBackground"
+    ],
+    "warning.border": [
+      "inputValidation.warningBorder"
+    ]
+  },
+  "mode_literals": {
+    "dark": {
+      "border.transparent": "#00000000",
+      "panel.indent_guide": "#58585866",
+      "panel.indent_guide_active": "#585858",
+      "terminal.foreground": "#CCCCCC",
+      "hint": "#969696",
+      "predictive": "#FFFFFF56"
+    },
+    "light": {
+      "border.transparent": "#00000000",
+      "panel.indent_guide": "#A9A9A966",
+      "panel.indent_guide_active": "#A9A9A9",
+      "terminal.foreground": "#333333",
+      "hint": "#969696",
+      "predictive": "#00000056"
+    }
+  },
+  "shared_literals": {
+    "version_control.conflict_marker.ours": "#40C8AE80",
+    "version_control.conflict_marker.theirs": "#40A6FF80",
+    "version_control_conflict_ours_background": "#40C8AE33",
+    "version_control_conflict_theirs_background": "#40A6FF33"
+  },
+  "ansi_zed_names": {
+    "ansiBlack": "black",
+    "ansiRed": "red",
+    "ansiGreen": "green",
+    "ansiYellow": "yellow",
+    "ansiBlue": "blue",
+    "ansiMagenta": "magenta",
+    "ansiCyan": "cyan",
+    "ansiWhite": "white",
+    "ansiBrightBlack": "bright_black",
+    "ansiBrightRed": "bright_red",
+    "ansiBrightGreen": "bright_green",
+    "ansiBrightYellow": "bright_yellow",
+    "ansiBrightBlue": "bright_blue",
+    "ansiBrightMagenta": "bright_magenta",
+    "ansiBrightCyan": "bright_cyan",
+    "ansiBrightWhite": "bright_white"
+  },
+  "collaborator_players": [
+    {
+      "cursor": "#39BAE5FF",
+      "background": "#39BAE5FF",
+      "selection": "#39BAE53D"
+    },
+    {
+      "cursor": "#FE8F40FF",
+      "background": "#FE8F40FF",
+      "selection": "#FE8F403D"
+    },
+    {
+      "cursor": "#D2A6FEFF",
+      "background": "#D2A6FEFF",
+      "selection": "#D2A6FE3D"
+    },
+    {
+      "cursor": "#95E5CBFF",
+      "background": "#95E5CBFF",
+      "selection": "#95E5CB3D"
+    },
+    {
+      "cursor": "#EF7177FF",
+      "background": "#EF7177FF",
+      "selection": "#EF71773D"
+    },
+    {
+      "cursor": "#FEB454FF",
+      "background": "#FEB454FF",
+      "selection": "#FEB4543D"
+    },
+    {
+      "cursor": "#AAD84CFF",
+      "background": "#AAD84CFF",
+      "selection": "#AAD84C3D"
+    }
+  ],
+  "syntax": {
+    "attribute": [
+      "entity.other.attribute-name"
+    ],
+    "boolean": [
+      "constant.language"
+    ],
+    "comment": [
+      "comment"
+    ],
+    "comment.doc": [
+      "comment.block.documentation",
+      "comment"
+    ],
+    "constant": [
+      "variable.other.constant"
+    ],
+    "constant.builtin": [
+      "constant.language"
+    ],
+    "constructor": [
+      "entity.name.type.class"
+    ],
+    "embedded": [
+      "meta.embedded"
+    ],
+    "emphasis": [
+      "markup.italic"
+    ],
+    "emphasis.strong": [
+      "markup.bold"
+    ],
+    "function": [
+      "entity.name.function"
+    ],
+    "function.builtin": [
+      "support.function"
+    ],
+    "function.decorator": [
+      "entity.name.function.decorator"
+    ],
+    "function.method": [
+      "entity.name.function.member",
+      "entity.name.function"
+    ],
+    "keyword": [
+      "keyword.control"
+    ],
+    "keyword.control": [
+      "keyword.control"
+    ],
+    "keyword.declaration": [
+      "storage.type"
+    ],
+    "keyword.definition": [
+      "storage.type"
+    ],
+    "keyword.import": [
+      "keyword.control.import"
+    ],
+    "keyword.modifier": [
+      "storage.modifier"
+    ],
+    "keyword.operator": [
+      "keyword.operator"
+    ],
+    "link_text": [
+      "string.other.link"
+    ],
+    "link_uri": [
+      "string.other.link"
+    ],
+    "module": [
+      "entity.name.namespace"
+    ],
+    "namespace": [
+      "entity.name.namespace"
+    ],
+    "number": [
+      "constant.numeric"
+    ],
+    "operator": [
+      "keyword.operator"
+    ],
+    "preproc": [
+      "meta.preprocessor"
+    ],
+    "property": [
+      "variable.other.property"
+    ],
+    "property.json_key": [
+      "support.type.property-name.json",
+      "support.type.property-name"
+    ],
+    "punctuation": [],
+    "punctuation.bracket": [],
+    "punctuation.delimiter": [],
+    "punctuation.list_marker": [
+      "punctuation.definition.list.begin.markdown"
+    ],
+    "punctuation.special": [
+      "punctuation.definition.template-expression.begin.js",
+      "punctuation.section.embedded"
+    ],
+    "string": [
+      "string"
+    ],
+    "string.escape": [
+      "constant.character.escape"
+    ],
+    "string.regex": [
+      "string.regexp"
+    ],
+    "string.special": [
+      "string"
+    ],
+    "string.special.symbol": [
+      "constant.other.symbol",
+      "string"
+    ],
+    "tag": [
+      "entity.name.tag"
+    ],
+    "tag.component.jsx": [
+      "support.class.component"
+    ],
+    "text.literal": [
+      "markup.inline.raw"
+    ],
+    "title": [
+      "markup.heading"
+    ],
+    "type": [
+      "entity.name.type"
+    ],
+    "type.builtin": [
+      "support.type.primitive"
+    ],
+    "type.enum.member": [
+      "variable.other.enummember"
+    ],
+    "variable": [
+      "variable.other.readwrite"
+    ],
+    "variable.builtin": [
+      "support.variable"
+    ],
+    "variable.parameter": [
+      "variable.parameter"
+    ],
+    "variable.special": [
+      "variable.language"
+    ],
+    "variant": [
+      "variable.other.enummember"
+    ]
+  },
+  "syntax_extras": {
+    "emphasis": {
+      "font_style": "italic"
+    },
+    "emphasis.strong": {
+      "font_weight": 700
+    },
+    "title": {
+      "font_weight": 700
+    }
+  }
+}

@@ -1,0 +1,3 @@
+preset = "strict"
+
+project-includes = ["build.py", "fetch_vscode_sources.py"]
