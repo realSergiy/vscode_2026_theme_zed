@@ -1,6 +1,6 @@
 [project]
 name = "vscode-2026-theme-zed"
-version = "0.1.0"
+version = "0.1.1"
 description = "Generator deriving the Zed VSCode 2026 themes from vendored VS Code sources"
 readme = "README.md"
 requires-python = ">=3.14"

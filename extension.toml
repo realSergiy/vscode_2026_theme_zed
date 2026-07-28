@@ -1,6 +1,6 @@
 id = "vscode-2026"
 name = "VSCode 2026 Themes"
-version = "0.1.0"
+version = "0.1.1"
 schema_version = 1
 authors = ["Sergiy Yeskov <sergiy.yeskov@gmail.com>"]
 description = "VS Code Dark 2026 and Light 2026 themes for Zed"

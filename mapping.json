@@ -459,8 +459,7 @@
       "punctuation.definition.list.begin.markdown"
     ],
     "punctuation.special": [
-      "punctuation.definition.template-expression.begin.js",
-      "punctuation.section.embedded"
+      "keyword.operator.type.annotation"
     ],
     "string": [
       "string"
