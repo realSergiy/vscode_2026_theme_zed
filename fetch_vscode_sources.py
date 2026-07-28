@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Copyright (c) 2026 Sergiy Yeskov
+# Copyright (c) 2026 realSergiy
 """Vendor the upstream VS Code files build.py derives the themes from.
 
 Downloads the theme-defaults JSONs and the color registries from

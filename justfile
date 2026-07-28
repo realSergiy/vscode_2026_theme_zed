@@ -12,8 +12,8 @@ default:
     @just --list
 
 # Install the uv environment.
-sync:
-    uv sync --locked
+install:
+    uv sync
 
 # Type-check with pyrefly.
 typecheck:
@@ -27,7 +27,7 @@ lint:
     uv run ruff format
 
 # Full gate: sync, typecheck, lint, build — autofix throughout.
-check: sync typecheck lint build
+check: install typecheck lint build
 
 # Upgrade deps: uv lock --upgrade + uv-bump raise >= floors, then reinstall.
 upgrade:
@@ -46,8 +46,4 @@ build:
     uv run build.py
 
 # Sync the environment, fetch VS Code sources, and rebuild the themes in one go.
-generate tag='': sync (fetch tag) build
-
-# Generate and install the themes into the local Zed config.
-install: generate
-    cp themes/vscode-2026.json ~/.config/zed/themes/vscode-2026.json
+generate tag='': install (fetch tag) build

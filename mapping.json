@@ -14,269 +14,225 @@
     ]
   },
   "ui": {
-    "border": [
-      "panel.border"
+    "focusBorder": [
+      "border.focused",
+      "panel.focused_border"
     ],
-    "border.variant": [
-      "panel.border"
+    "panelTitle.activeBorder": [
+      "border.selected"
     ],
-    "border.focused": [
-      "focusBorder"
+    "editorWidget.background": [
+      "elevated_surface.background"
     ],
-    "border.selected": [
-      "panelTitle.activeBorder"
+    "sideBar.background": [
+      "surface.background",
+      "background",
+      "element.background",
+      "panel.background"
     ],
-    "border.disabled": [
-      "panel.border"
+    "list.hoverBackground": [
+      "element.hover",
+      "ghost_element.hover"
     ],
-    "elevated_surface.background": [
-      "editorWidget.background"
+    "list.activeSelectionBackground": [
+      "element.active",
+      "element.selected",
+      "ghost_element.active",
+      "ghost_element.selected"
     ],
-    "surface.background": [
-      "sideBar.background"
+    "list.dropBackground": [
+      "drop_target.background"
     ],
-    "background": [
-      "sideBar.background"
+    "foreground": [
+      "text"
     ],
-    "element.background": [
-      "sideBar.background"
+    "descriptionForeground": [
+      "text.muted",
+      "hidden",
+      "unreachable"
     ],
-    "element.hover": [
-      "list.hoverBackground"
+    "input.placeholderForeground": [
+      "text.placeholder"
     ],
-    "element.active": [
-      "list.activeSelectionBackground"
+    "disabledForeground": [
+      "text.disabled",
+      "icon.disabled"
     ],
-    "element.selected": [
-      "list.activeSelectionBackground"
+    "textLink.foreground": [
+      "text.accent",
+      "icon.accent"
     ],
-    "drop_target.background": [
-      "list.dropBackground"
+    "icon.foreground": [
+      "icon",
+      "icon.muted"
     ],
-    "ghost_element.hover": [
-      "list.hoverBackground"
+    "statusBar.debuggingBackground": [
+      "debugger.accent"
     ],
-    "ghost_element.active": [
-      "list.activeSelectionBackground"
+    "statusBar.background": [
+      "status_bar.background"
     ],
-    "ghost_element.selected": [
-      "list.activeSelectionBackground"
+    "titleBar.activeBackground": [
+      "title_bar.background"
     ],
-    "text": [
-      "foreground"
+    "titleBar.inactiveBackground": [
+      "title_bar.inactive_background"
     ],
-    "text.muted": [
-      "descriptionForeground"
+    "breadcrumb.background": [
+      "toolbar.background"
     ],
-    "text.placeholder": [
-      "input.placeholderForeground"
+    "editorGroupHeader.tabsBackground": [
+      "tab_bar.background"
     ],
-    "text.disabled": [
-      "disabledForeground"
+    "tab.inactiveBackground": [
+      "tab.inactive_background"
     ],
-    "text.accent": [
-      "textLink.foreground"
+    "tab.activeBackground": [
+      "tab.active_background"
     ],
-    "icon": [
-      "icon.foreground"
+    "editor.findMatchHighlightBackground": [
+      "search.match_background"
     ],
-    "icon.muted": [
-      "icon.foreground"
+    "editorGroup.border": [
+      "pane_group.border"
     ],
-    "icon.disabled": [
-      "disabledForeground"
+    "editorOverviewRuler.border": [
+      "scrollbar.track.border"
     ],
-    "icon.accent": [
-      "textLink.foreground"
+    "minimapSlider.background": [
+      "minimap.thumb.background"
     ],
-    "debugger.accent": [
-      "statusBar.debuggingBackground"
+    "minimapSlider.hoverBackground": [
+      "minimap.thumb.hover_background"
     ],
-    "status_bar.background": [
-      "statusBar.background"
-    ],
-    "title_bar.background": [
-      "titleBar.activeBackground"
-    ],
-    "title_bar.inactive_background": [
-      "titleBar.inactiveBackground"
-    ],
-    "toolbar.background": [
-      "breadcrumb.background",
-      "editor.background"
-    ],
-    "tab_bar.background": [
-      "editorGroupHeader.tabsBackground"
-    ],
-    "tab.inactive_background": [
-      "tab.inactiveBackground"
-    ],
-    "tab.active_background": [
-      "tab.activeBackground"
-    ],
-    "search.match_background": [
-      "editor.findMatchHighlightBackground"
-    ],
-    "panel.background": [
-      "sideBar.background"
-    ],
-    "panel.focused_border": [
-      "focusBorder"
-    ],
-    "pane_group.border": [
-      "editorGroup.border",
-      "panel.border"
-    ],
-    "scrollbar.thumb.background": [
-      "scrollbarSlider.background"
-    ],
-    "scrollbar.thumb.hover_background": [
-      "scrollbarSlider.hoverBackground"
-    ],
-    "scrollbar.thumb.active_background": [
-      "scrollbarSlider.activeBackground"
-    ],
-    "scrollbar.track.border": [
-      "editorOverviewRuler.border"
-    ],
-    "minimap.thumb.background": [
-      "minimapSlider.background",
-      "scrollbarSlider.background"
-    ],
-    "minimap.thumb.hover_background": [
-      "minimapSlider.hoverBackground",
-      "scrollbarSlider.hoverBackground"
-    ],
-    "minimap.thumb.active_background": [
-      "minimapSlider.activeBackground",
-      "scrollbarSlider.activeBackground"
+    "minimapSlider.activeBackground": [
+      "minimap.thumb.active_background"
     ],
     "editor.foreground": [
       "editor.foreground"
     ],
-    "editor.background": [
-      "editor.background"
+    "editorGutter.background": [
+      "editor.gutter.background"
     ],
-    "editor.gutter.background": [
-      "editorGutter.background",
-      "editor.background"
+    "editor.lineHighlightBackground": [
+      "editor.active_line.background"
     ],
-    "editor.active_line.background": [
-      "editor.lineHighlightBackground"
+    "editor.rangeHighlightBackground": [
+      "editor.highlighted_line.background"
     ],
-    "editor.highlighted_line.background": [
-      "editor.rangeHighlightBackground"
+    "editorLineNumber.foreground": [
+      "editor.line_number"
     ],
-    "editor.line_number": [
-      "editorLineNumber.foreground"
+    "editorLineNumber.activeForeground": [
+      "editor.active_line_number",
+      "editor.hover_line_number"
     ],
-    "editor.active_line_number": [
-      "editorLineNumber.activeForeground"
+    "editorWhitespace.foreground": [
+      "editor.invisible"
     ],
-    "editor.hover_line_number": [
-      "editorLineNumber.activeForeground"
+    "editorRuler.foreground": [
+      "editor.wrap_guide",
+      "editor.active_wrap_guide"
     ],
-    "editor.invisible": [
-      "editorWhitespace.foreground"
+    "editorIndentGuide.background": [
+      "editor.indent_guide"
     ],
-    "editor.wrap_guide": [
-      "editorRuler.foreground"
+    "editorIndentGuide.activeBackground": [
+      "editor.indent_guide_active"
     ],
-    "editor.active_wrap_guide": [
-      "editorRuler.foreground"
+    "editor.wordHighlightBackground": [
+      "editor.document_highlight.read_background"
     ],
-    "editor.indent_guide": [
-      "editorIndentGuide.background"
+    "editor.wordHighlightStrongBackground": [
+      "editor.document_highlight.write_background"
     ],
-    "editor.indent_guide_active": [
-      "editorIndentGuide.activeBackground"
-    ],
-    "editor.document_highlight.read_background": [
-      "editor.wordHighlightBackground"
-    ],
-    "editor.document_highlight.write_background": [
-      "editor.wordHighlightStrongBackground"
-    ],
-    "editor.document_highlight.bracket_background": [
-      "editorBracketMatch.background"
+    "editorBracketMatch.background": [
+      "editor.document_highlight.bracket_background"
     ],
     "terminal.background": [
       "terminal.background"
     ],
-    "link_text.hover": [
-      "textLink.activeForeground"
+    "textLink.activeForeground": [
+      "link_text.hover"
     ],
-    "version_control.added": [
-      "editorGutter.addedBackground"
+    "editorGutter.addedBackground": [
+      "version_control.added"
     ],
-    "version_control.deleted": [
-      "editorGutter.deletedBackground"
+    "editorGutter.deletedBackground": [
+      "version_control.deleted"
     ],
-    "version_control.modified": [
-      "editorGutter.modifiedBackground"
+    "editorGutter.modifiedBackground": [
+      "version_control.modified"
     ],
-    "version_control.renamed": [
-      "gitDecoration.addedResourceForeground"
+    "gitDecoration.addedResourceForeground": [
+      "version_control.renamed",
+      "created",
+      "renamed",
+      "success"
     ],
-    "version_control.conflict": [
-      "gitDecoration.conflictingResourceForeground"
+    "gitDecoration.conflictingResourceForeground": [
+      "version_control.conflict",
+      "conflict"
     ],
-    "version_control.ignored": [
-      "gitDecoration.ignoredResourceForeground"
+    "gitDecoration.ignoredResourceForeground": [
+      "version_control.ignored",
+      "ignored"
     ],
-    "conflict": [
-      "gitDecoration.conflictingResourceForeground"
+    "gitDecoration.deletedResourceForeground": [
+      "deleted"
     ],
-    "created": [
-      "gitDecoration.addedResourceForeground"
+    "errorForeground": [
+      "error"
     ],
-    "deleted": [
-      "gitDecoration.deletedResourceForeground"
+    "inputValidation.errorBackground": [
+      "error.background"
     ],
-    "error": [
-      "errorForeground"
+    "inputValidation.errorBorder": [
+      "error.border"
     ],
-    "error.background": [
-      "inputValidation.errorBackground"
+    "notificationsInfoIcon.foreground": [
+      "info"
     ],
-    "error.border": [
-      "inputValidation.errorBorder"
+    "inputValidation.infoBackground": [
+      "info.background"
     ],
-    "hidden": [
-      "descriptionForeground"
+    "inputValidation.infoBorder": [
+      "info.border"
     ],
-    "ignored": [
-      "gitDecoration.ignoredResourceForeground"
+    "gitDecoration.modifiedResourceForeground": [
+      "modified"
     ],
-    "info": [
-      "notificationsInfoIcon.foreground"
+    "notificationsWarningIcon.foreground": [
+      "warning"
     ],
-    "info.background": [
-      "inputValidation.infoBackground"
+    "inputValidation.warningBackground": [
+      "warning.background"
     ],
-    "info.border": [
-      "inputValidation.infoBorder"
+    "inputValidation.warningBorder": [
+      "warning.border"
     ],
-    "modified": [
-      "gitDecoration.modifiedResourceForeground"
+    "panel.border": [
+      "border",
+      "border.variant",
+      "border.disabled",
+      "pane_group.border"
     ],
-    "renamed": [
-      "gitDecoration.addedResourceForeground"
+    "scrollbarSlider.background": [
+      "scrollbar.thumb.background",
+      "minimap.thumb.background"
     ],
-    "success": [
-      "gitDecoration.addedResourceForeground"
+    "scrollbarSlider.hoverBackground": [
+      "scrollbar.thumb.hover_background",
+      "minimap.thumb.hover_background"
     ],
-    "unreachable": [
-      "descriptionForeground"
+    "scrollbarSlider.activeBackground": [
+      "scrollbar.thumb.active_background",
+      "minimap.thumb.active_background"
     ],
-    "warning": [
-      "notificationsWarningIcon.foreground"
-    ],
-    "warning.background": [
-      "inputValidation.warningBackground"
-    ],
-    "warning.border": [
-      "inputValidation.warningBorder"
+    "editor.background": [
+      "toolbar.background",
+      "editor.background",
+      "editor.gutter.background"
     ]
   },
   "mode_literals": {
@@ -359,161 +315,152 @@
     }
   ],
   "syntax": {
-    "attribute": [
-      "entity.other.attribute-name"
+    "entity.other.attribute-name": [
+      "attribute"
     ],
-    "boolean": [
-      "constant.language"
+    "constant.language": [
+      "boolean",
+      "constant.builtin"
     ],
-    "comment": [
-      "comment"
+    "comment.block.documentation": [
+      "comment.doc"
     ],
-    "comment.doc": [
-      "comment.block.documentation",
-      "comment"
+    "variable.other.constant": [
+      "constant"
     ],
-    "constant": [
-      "variable.other.constant"
+    "entity.name.type.class": [
+      "constructor"
     ],
-    "constant.builtin": [
-      "constant.language"
+    "meta.embedded": [
+      "embedded"
     ],
-    "constructor": [
-      "entity.name.type.class"
+    "markup.italic": [
+      "emphasis"
     ],
-    "embedded": [
-      "meta.embedded"
+    "markup.bold": [
+      "emphasis.strong"
     ],
-    "emphasis": [
-      "markup.italic"
+    "support.function": [
+      "function.builtin"
     ],
-    "emphasis.strong": [
-      "markup.bold"
+    "entity.name.function.decorator": [
+      "function.decorator"
     ],
-    "function": [
-      "entity.name.function"
-    ],
-    "function.builtin": [
-      "support.function"
-    ],
-    "function.decorator": [
-      "entity.name.function.decorator"
-    ],
-    "function.method": [
-      "entity.name.function.member",
-      "entity.name.function"
-    ],
-    "keyword": [
-      "keyword.control"
+    "entity.name.function.member": [
+      "function.method"
     ],
     "keyword.control": [
+      "keyword",
       "keyword.control"
     ],
-    "keyword.declaration": [
-      "storage.type"
+    "storage.type": [
+      "keyword.declaration",
+      "keyword.definition"
     ],
-    "keyword.definition": [
-      "storage.type"
+    "keyword.control.import": [
+      "keyword.import"
     ],
-    "keyword.import": [
-      "keyword.control.import"
-    ],
-    "keyword.modifier": [
-      "storage.modifier"
+    "storage.modifier": [
+      "keyword.modifier"
     ],
     "keyword.operator": [
-      "keyword.operator"
+      "keyword.operator",
+      "operator"
     ],
-    "link_text": [
-      "string.other.link"
+    "string.other.link": [
+      "link_text",
+      "link_uri"
     ],
-    "link_uri": [
-      "string.other.link"
+    "entity.name.namespace": [
+      "module",
+      "namespace"
     ],
-    "module": [
-      "entity.name.namespace"
+    "constant.numeric": [
+      "number"
     ],
-    "namespace": [
-      "entity.name.namespace"
+    "storage.type.function.arrow": [
+      "operator.arrow"
     ],
-    "number": [
-      "constant.numeric"
+    "meta.preprocessor": [
+      "preproc"
     ],
-    "operator": [
-      "keyword.operator"
+    "variable.other.property": [
+      "property"
     ],
-    "preproc": [
-      "meta.preprocessor"
+    "support.type.property-name.json": [
+      "property.json_key"
     ],
-    "property": [
-      "variable.other.property"
+    "punctuation.definition.list.begin.markdown": [
+      "punctuation.list_marker"
     ],
-    "property.json_key": [
-      "support.type.property-name.json",
-      "support.type.property-name"
+    "keyword.operator.type.annotation": [
+      "punctuation.special"
     ],
-    "punctuation": [],
-    "punctuation.bracket": [],
-    "punctuation.delimiter": [],
-    "punctuation.list_marker": [
-      "punctuation.definition.list.begin.markdown"
+    "constant.character.escape": [
+      "string.escape"
     ],
-    "punctuation.special": [
-      "keyword.operator.type.annotation"
+    "string.regexp": [
+      "string.regex"
     ],
-    "string": [
-      "string"
+    "constant.other.symbol": [
+      "string.special.symbol"
     ],
-    "string.escape": [
-      "constant.character.escape"
+    "entity.name.tag": [
+      "tag"
     ],
-    "string.regex": [
-      "string.regexp"
+    "support.class.component": [
+      "tag.component.jsx"
     ],
-    "string.special": [
-      "string"
+    "markup.inline.raw": [
+      "text.literal"
     ],
-    "string.special.symbol": [
-      "constant.other.symbol",
-      "string"
+    "markup.heading": [
+      "title"
     ],
-    "tag": [
-      "entity.name.tag"
+    "entity.name.type": [
+      "type"
     ],
-    "tag.component.jsx": [
-      "support.class.component"
+    "support.type.primitive": [
+      "type.builtin"
     ],
-    "text.literal": [
-      "markup.inline.raw"
+    "variable.other.enummember": [
+      "type.enum.member",
+      "variant"
     ],
-    "title": [
-      "markup.heading"
+    "variable.other.readwrite": [
+      "variable"
     ],
-    "type": [
-      "entity.name.type"
-    ],
-    "type.builtin": [
-      "support.type.primitive"
-    ],
-    "type.enum.member": [
-      "variable.other.enummember"
-    ],
-    "variable": [
-      "variable.other.readwrite"
-    ],
-    "variable.builtin": [
-      "support.variable"
+    "support.variable": [
+      "variable.builtin"
     ],
     "variable.parameter": [
       "variable.parameter"
     ],
-    "variable.special": [
-      "variable.language"
+    "variable.language": [
+      "variable.special"
     ],
-    "variant": [
-      "variable.other.enummember"
+    "comment": [
+      "comment",
+      "comment.doc"
+    ],
+    "entity.name.function": [
+      "function",
+      "function.method"
+    ],
+    "support.type.property-name": [
+      "property.json_key"
+    ],
+    "string": [
+      "string",
+      "string.special",
+      "string.special.symbol"
     ]
   },
+  "foreground_syntax": [
+    "punctuation",
+    "punctuation.bracket",
+    "punctuation.delimiter"
+  ],
   "syntax_extras": {
     "emphasis": {
       "font_style": "italic"
